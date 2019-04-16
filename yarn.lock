@@ -717,7 +717,7 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.4.2":
+"@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3":
   version "7.4.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
   integrity sha512-9lsJwJLxDh/T3Q3SZszfWOTkk3pHbkmH+3KY+zwIDmsNlxsumuhS2TH3NIpktU4kNvfzy+k3eLT7aTJSPTo0OA==
@@ -4508,6 +4508,14 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+gatsby-background-image@^0.3.2:
+  version "0.3.2"
+  resolved "http://r.cnpmjs.org/gatsby-background-image/download/gatsby-background-image-0.3.2.tgz#8019fa17172391890c0d7958e76ab52fc9309b2b"
+  integrity sha1-gBn6FxcjkYkMDXlY52q1L8kwmys=
+  dependencies:
+    "@babel/runtime" "^7.4.3"
+    prop-types "^15.7.2"
+
 gatsby-cli@^2.5.6:
   version "2.5.6"
   resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.5.6.tgz#9b96651e9c154904e4ced814e21029777336a2f7"
@@ -4597,10 +4605,10 @@ gatsby-plugin-react-helmet@^3.0.12:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-sharp@^2.0.32:
-  version "2.0.32"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-2.0.32.tgz#47ebf2e44ece58560fa8bc604e7904ff9dca1386"
-  integrity sha512-5cLD2VUcKBtIm7QJbSj4fIAv/eqD6KhraHODHjpGwqvwSOdLQB7YcmzSCPnRwxEv+0f2wNrjZYpsd8SmIWfhDw==
+gatsby-plugin-sharp@^2.0.34:
+  version "2.0.34"
+  resolved "http://r.cnpmjs.org/gatsby-plugin-sharp/download/gatsby-plugin-sharp-2.0.34.tgz#c08159d00d3f3aec23bbe16fca240deffa6cdeb9"
+  integrity sha1-wIFZ0A0/Ouwju+FvyiQN7/ps3rk=
   dependencies:
     "@babel/runtime" "^7.0.0"
     async "^2.1.2"
@@ -4617,6 +4625,11 @@ gatsby-plugin-sharp@^2.0.32:
     progress "^1.1.8"
     sharp "^0.21.3"
     svgo "^1.2.0"
+
+gatsby-plugin-snipcart@^1.0.6:
+  version "1.0.6"
+  resolved "http://r.cnpmjs.org/gatsby-plugin-snipcart/download/gatsby-plugin-snipcart-1.0.6.tgz#21460b958980e7f7b335874522ae07187dd1840f"
+  integrity sha1-IUYLlYmA5/ezNYdFIq4HGH3RhA8=
 
 gatsby-react-router-scroll@^2.0.7:
   version "2.0.7"
@@ -4668,10 +4681,10 @@ gatsby-telemetry@^1.0.6:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-transformer-sharp@^2.1.17:
-  version "2.1.17"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.1.17.tgz#d7f2261cb0cd9943bada42e82e89179cfa9554fc"
-  integrity sha512-htbkxy2VNInxS5oxZForbKenYP56U/tI6cV630TBO8UkaOFj/8M2vZ6vugcTJHMCwRJNLT1WJ+Y9RAEwPBFnuA==
+gatsby-transformer-sharp@^2.1.18:
+  version "2.1.18"
+  resolved "http://r.cnpmjs.org/gatsby-transformer-sharp/download/gatsby-transformer-sharp-2.1.18.tgz#72d30554d7f25b00f710025b76fe5d25974f01e7"
+  integrity sha1-ctMFVNfyWwD3EAJbdv5dJZdPAec=
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -8664,6 +8677,11 @@ react-hot-loader@^4.6.2:
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
     source-map "^0.7.3"
+
+react-icons@^3.5.0:
+  version "3.5.0"
+  resolved "http://r.cnpmjs.org/react-icons/download/react-icons-3.5.0.tgz#a6135480e3bcbc63f5dd045193ef2a814263d8d1"
+  integrity sha1-phNUgOO8vGP13QRRk+8qgUJj2NE=
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.8.3"
